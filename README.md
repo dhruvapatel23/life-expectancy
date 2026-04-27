@@ -1,23 +1,25 @@
-# 🌍 Global Longevity: A Predictive Machine Learning Approach to Public Health
+#  Global Longevity: A Predictive Machine Learning Approach to Public Health
 
-## 📌 Project Overview
 
-The **Global Longevity (VitalSigns)** project aims to analyze and predict life expectancy using machine learning techniques. By leveraging WHO data, this project identifies key health, economic, and social factors that influence longevity worldwide.
+##  Project Overview
+This project focuses on analyzing and predicting life expectancy using machine learning techniques. The dataset contains various health, economic, and demographic factors that influence life expectancy across different countries.
 
-Our goal is to answer:
-
-> *Which interventions—healthcare, education, or economic factors—most effectively improve life expectancy?*
+The goal of this project is to:
+- Perform Exploratory Data Analysis (EDA)
+- Understand key factors affecting life expectancy
+- Apply machine learning models for prediction
+- Evaluate model performance
 
 ---
 
-## 👥 Team Members
+##  Team Members
 
 * **Abhik Ashwinkumar Patel**
 * **Dhruv Alpeshkumar Patel**
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 * Source: WHO Life Expectancy Dataset
 * Link: https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who
@@ -26,16 +28,7 @@ Our goal is to answer:
 
 ---
 
-
-## 🛠️ Technologies Used
-
-* Python
-* Pandas, NumPy
-* Matplotlib, Seaborn
-
----
-
-## 📂 Project Structure
+##  Project Structure
 
 ```
 life-expectancy/
@@ -48,26 +41,56 @@ life-expectancy/
 
 
 ```
+##  Technologies Used
 
-
-## ⚙️ Work Completed So Far
-
-✔ Data Collection & Understanding
-✔ Data Cleaning & Preprocessing
-✔ Exploratory Data Analysis (EDA)
-
----
-
-## 📊 Key Insights (EDA)
-
-* Life expectancy strongly correlates with schooling and income
-* Developing countries show higher variability
-* Health expenditure impacts longevity significantly
-
+- Python
+- Pandas (Data handling)
+- NumPy (Numerical operations)
+- Matplotlib & Seaborn (Visualization)
+- Scikit-learn (Machine Learning)
+- SciPy (Statistical analysis)
 
 ---
 
-## 🔄 How to Run the Project
+##  Workflow
+
+### 1. Data Preprocessing
+- Handling missing values
+- Encoding categorical variables
+- Feature selection
+
+### 2. Exploratory Data Analysis (EDA)
+- Distribution analysis
+- Correlation heatmaps
+- Feature relationships
+
+### 3. Model Building
+Different models were applied:
+- Linear Regression
+- Logistic Regression
+- Random Forest
+- Decision Tree
+- K-Nearest Neighbors (KNN)
+- Support Vector Machine (SVM)
+- Naive Bayes
+
+### 4. Evaluation Metrics
+- Accuracy
+- Confusion Matrix
+- Mean Squared Error (MSE)
+- R² Score
+
+---
+
+##  Key Insights
+
+- Economic and health-related factors strongly influence life expectancy
+- Some features show high correlation, indicating redundancy
+- Ensemble models like Random Forest performed better compared to simpler models
+
+---
+
+##  How to Run the Project
 
 1. Clone the repository:
 
@@ -89,29 +112,13 @@ jupyter notebook
 
 ---
 
-## 🌟 Expected Outcomes
 
-* Accurate prediction of life expectancy
-* Identification of high-impact factors
-* Data-driven insights for policy decisions
-
----
-
-## 📅 Timeline
-
-* Data Preparation: ✔ Completed
-* EDA: ✔ Completed
-* Modeling: 🔄 In Progress
-* Final Report: ⏳ Pending
-
----
-
-## 📢 Conclusion
+##  Conclusion
 
 This project transforms healthcare decision-making from intuition to **data-driven insights**, helping policymakers prioritize impactful interventions for improving global life expectancy.
 
 ---
 
-## 🔗 GitHub Repository
+##  GitHub Repository
 
 https://github.com/dhruvapatel23/life-expectancy
